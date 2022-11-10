@@ -5,6 +5,14 @@ Project Name: Habib Photography
 Project Link: 
 
 
+Features And Functionalities:
+1. There is a navbar, navbar can take you to home,blogs,login any time.
+2. There is a course section after the slider, you can see some My work there.
+3. You can purchase any service through secure gateway.
+
+4. there is a Small biography section where you can find author details.
+5. You can add and see the review on each services.
+
 
 
 
