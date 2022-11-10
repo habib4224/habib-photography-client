@@ -1,5 +1,6 @@
 import AddService from "../../AddService/AddService";
 import Main from "../../Layout/Main";
+import Blogs from "../../pages/Blog/Blogs";
 import Home from "../../pages/Home/Home";
 import ServicesAll from "../../pages/Home/Services/ServicesAll/ServicesAll";
 import Login from "../../pages/Login/Login";
@@ -44,7 +45,12 @@ const router = createBrowserRouter([
             {
                 path: '/servicesall',
                 element: <ServicesAll></ServicesAll>
+            },
+            {
+                path: '/blogs',
+                element: <Blogs></Blogs>
             }
+
 
 
         ]
