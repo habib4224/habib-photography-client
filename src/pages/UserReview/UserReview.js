@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
-import { ToastContainer, toast } from 'react-toastify';
 import UserReviewRow from './UserReviewRow';
 import useTitle from '../../Hooks/useTitle';
 
@@ -26,7 +25,7 @@ const UserReview = () => {
                     console.log(data);
                     if (data.deletedCount > 0) {
                         const remaining = reviews.filter(odr => odr._id !== id);
-                        toast('deleted successfully');
+                        alert('deleted successfully');
                         setReviews(remaining);
                     }
                 })
@@ -55,12 +54,12 @@ const UserReview = () => {
     }
 
     return (
-        <div className='justify-center '>
-            <h2 className="text-5xl font-bold text-center text-primary">Review: {reviews.length}</h2>
+        <div className='justify-center mb-5 '>
+            <h2 className="text-5xl my-5 font-bold text-center text-primary">Review: {reviews.length}</h2>
 
             {
                 reviews.length < 1 ?
-                    <h1 className='text-5xl text-primary'>No Reviews added. Add Review First! </h1>
+                    <h1 className='text-5xl my-5 text-primary'>No Reviews added. Add Review First! </h1>
                     :
                     <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-1">
 

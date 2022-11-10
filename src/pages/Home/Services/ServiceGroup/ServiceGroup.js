@@ -23,7 +23,7 @@ const ServiceGroup = ({ servic }) => {
                 <p>{description.slice(0, 300)}...</p>
 
                 <div className="card-actions justify-end mt-4">
-                    <p>Price: ${price}</p>
+                    <p><strong className='text-primary'>Price: $</strong>{price}</p>
                     <Link to={`/perdetails/${_id}`}><button className="btn btn-primary">Details Service</button></Link>
                 </div>
             </div>
