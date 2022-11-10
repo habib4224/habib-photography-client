@@ -5,7 +5,7 @@ import ServiceGroup from '../ServiceGroup/ServiceGroup';
 const ServicesAll = () => {
     const [servics, setServics] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://habib-photography-server.vercel.app/services')
             .then(res => res.json())
             .then(data => setServics(data))
     }, [])

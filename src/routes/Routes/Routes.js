@@ -32,7 +32,7 @@ const router = createBrowserRouter([
             {
                 path: '/perdetails/:id',
                 element: <PrivateRoute><PerDetails></PerDetails></PrivateRoute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://habib-photography-server.vercel.app/services/${params.id}`)
             },
             {
                 path: '/userreview',
