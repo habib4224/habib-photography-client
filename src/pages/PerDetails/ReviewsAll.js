@@ -17,7 +17,7 @@ const ReviewsAll = ({ reviwsa }) => {
                     }
 
                     <div className='p-4'>
-                        <p > {uname}</p>
+                        <p className='text-primary'> {uname}</p>
                         <p >{email}</p>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ const ServiceGroup = ({ servic }) => {
                 </PhotoProvider>
             </div>
             <div className="card-body">
-                <h2 className="card-title">{name}</h2>
+                <h2 className="card-title text-primary">{name}</h2>
                 <p>{description.slice(0, 300)}...</p>
 
                 <div className="card-actions justify-end mt-4">
