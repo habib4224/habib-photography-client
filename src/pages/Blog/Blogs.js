@@ -27,6 +27,14 @@ const Blogs = () => {
                     <p>Ans: JavaScript is a high-level programming language that makes our web pages and web applications dynamic and interactive by giving them the ability to think and act. JavaScript is a lightweight (easy to learn syntax) and object-oriented programming language whereas Node.js is a runtime environment built on google v8 engine and typically used to represent a list of objects and functions that JavaScript programs can access.</p>
                 </div>
             </div>
+            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div className="collapse-title text-xl font-medium">
+                    <h1>* How does NodeJS handle multiple requests at the same time?</h1>
+                </div>
+                <div className="collapse-content">
+                    <p>Ans: We know NodeJS application is single-threaded. Say, if processing involves request A that takes 10 seconds, it does not mean that a request which comes after this request needs to wait 10 seconds to start processing because NodeJS event loops are only single-threaded. The entire NodeJS architecture is not single-threaded.</p>
+                </div>
+            </div>
 
         </div>
     );
