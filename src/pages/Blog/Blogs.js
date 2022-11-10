@@ -19,6 +19,15 @@ const Blogs = () => {
                     <p>Ans: In authentication, when the user successfully logs in using their credentials, a JSON Web Token will be returned. Since tokens are credentials, great care must be taken to prevent security issues. In general, you should not keep tokens longer than required.</p>
                 </div>
             </div>
+            <div tabIndex={0} className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div className="collapse-title text-xl font-medium">
+                    <h1>What is the difference between javascript and NodeJS?</h1>
+                </div>
+                <div className="collapse-content">
+                    <p>Ans: JavaScript is a high-level programming language that makes our web pages and web applications dynamic and interactive by giving them the ability to think and act. JavaScript is a lightweight (easy to learn syntax) and object-oriented programming language whereas Node.js is a runtime environment built on google v8 engine and typically used to represent a list of objects and functions that JavaScript programs can access.</p>
+                </div>
+            </div>
+
         </div>
     );
 };
