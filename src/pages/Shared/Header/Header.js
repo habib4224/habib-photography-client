@@ -27,7 +27,7 @@ const Header = () => {
                             {
                                 user?.email ?
                                     <> <li className='font-semibold'>
-                                        <Link to='/aaddservices'><button className="btn btn-ghost">Add Services</button></Link>
+                                        <Link to='/serviceadd'><button className="btn btn-ghost">Add Services</button></Link>
                                     </li>
 
                                         <li className='font-semibold'>
@@ -55,7 +55,7 @@ const Header = () => {
                     {
                         user?.email ?
                             <>
-                                <Link to='/aaddservices'>
+                                <Link to='/serviceadd'>
                                     <button className="btn btn-ghost">Add Services</button>
                                 </Link>
                                 <Link to='/userreview'>
